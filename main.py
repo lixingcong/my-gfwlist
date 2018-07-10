@@ -52,8 +52,8 @@ def generate_a_config(filename_in, filename_out, nameserver, ipset_name, is_noRe
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(prog='tool',
-								     formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=80),
-								     description='A simple config file generator for dnsmasq-regex')
+	                                 formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=80),
+	                                 description='A simple config file generator for dnsmasq-regex')
 	
 	parser.add_argument('-i','--input', help='filename input', required=True)
 	parser.add_argument('-o','--output', help='filename output', required=True)

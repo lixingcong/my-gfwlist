@@ -30,7 +30,7 @@ optional arguments:
 Example
 
 ```
-python main.py -i domains.txt -o /tmp/gfwlist.conf -n 8.8.8.8#53
+python main.py -i domains.txt -o /tmp/gfwlist.conf -n 8.8.8.8#53 -s gfwlist
 ```
 
 The script output basic server configuration and ipset.
