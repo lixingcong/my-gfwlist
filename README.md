@@ -11,22 +11,20 @@ If you do not have one, it is ok. You need you write your custom domain list(the
 ## Usage
 
 ```
-$ python main.py --help
-usage: main.py [-h] -i INPUT -o OUTPUT [-n NAMESERVER] [-s IPSET_NAME] [-N]
+$ python main.py -h
+usage: tool [-h] -i INPUT -o OUTPUT [-n NAMESERVER] [-s IPSET_NAME] [-N] [-S] [-R]
 
 A simple config file generator for dnsmasq-regex
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        filename input
-  -o OUTPUT, --output OUTPUT
-                        filename output
-  -n NAMESERVER, --nameserver NAMESERVER
-                        nameserver to resolve, default: 8.8.8.8
-  -s IPSET_NAME, --ipset-name IPSET_NAME
-                        ipset name to add
-  -N, --no-regex        ignore regex domains(disable ipset also)
+  -h, --help                              show this help message and exit
+  -i INPUT, --input INPUT                 filename input
+  -o OUTPUT, --output OUTPUT              filename output
+  -n NAMESERVER, --nameserver NAMESERVER  nameserver to resolve, default: 8.8.8.8
+  -s IPSET_NAME, --ipset-name IPSET_NAME  ipset name to add
+  -N, --nameserver-only                   generate nameserver only
+  -S, --ipset-only                        generate ipset only
+  -R, --no-regex                          ignore regex domains
 ```
 
 Example
@@ -59,6 +57,8 @@ To get ipset config works, you need to create a set named 'gfwlist' first.
 ```
 ipset create gfwlist hash:ip
 ```
+
+Use the scirpt 'main.py' above to generate full nameserver and ipset config file.
 
 Run dnsmasq as your system resolver. Run ss-redir listening on port 1234.
 

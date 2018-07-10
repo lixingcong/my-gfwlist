@@ -7,12 +7,17 @@
 
 import argparse
 import datetime
+import sys
 
 CONFIG_COMMENT='#'
 CONFIG_NEWLINE='\n'
 DEFAULT_NAMESERVER='8.8.8.8'
 
-def generate_a_config(filename_in, filename_out, nameserver, ipset_name, is_noRegex):
+ONLY_MODE_NAMESERVER  = 0x01
+ONLY_MODE_IPSET       = 0x10
+ONLY_MODE_BOTH        = ONLY_MODE_NAMESERVER | ONLY_MODE_IPSET
+
+def generate_a_config(filename_in, filename_out, nameserver, ipset_name, is_noRegex, only_mode):
 	domain_list=[]
 	
 	# Read from file
@@ -38,25 +43,41 @@ def generate_a_config(filename_in, filename_out, nameserver, ipset_name, is_noRe
 		f.write(CONFIG_COMMENT+item_count_str+noRegex_str+CONFIG_NEWLINE)
 		
 		for domain in domain_list:
-			f.write('server=/' + domain + '/' + nameserver + CONFIG_NEWLINE)
+			if only_mode & ONLY_MODE_NAMESERVER == ONLY_MODE_NAMESERVER:
+				f.write('server=/' + domain + '/' + nameserver + CONFIG_NEWLINE)
 			
-			if ipset_name is not None:
+			if ipset_name is not None and (only_mode & ONLY_MODE_IPSET == ONLY_MODE_IPSET):
 				f.write('ipset=/' + domain + '/' + ipset_name + CONFIG_NEWLINE)
 
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description='A simple config file generator for dnsmasq-regex')
+	parser = argparse.ArgumentParser(prog='tool',
+								     formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=80),
+								     description='A simple config file generator for dnsmasq-regex')
+	
 	parser.add_argument('-i','--input', help='filename input', required=True)
 	parser.add_argument('-o','--output', help='filename output', required=True)
+	
 	parser.add_argument('-n','--nameserver', help='nameserver to resolve, default: '+DEFAULT_NAMESERVER, default=DEFAULT_NAMESERVER, required=False)
 	parser.add_argument('-s','--ipset-name', help='ipset name to add', default=None, required=False)
-	parser.add_argument('-N','--no-regex', help='ignore regex domains(disable ipset also)', action='store_true')
+	
+	parser.add_argument('-N','--nameserver-only', help='generate nameserver only', action='store_true')
+	parser.add_argument('-S','--ipset-only', help='generate ipset only', action='store_true')
+	
+	parser.add_argument('-R','--no-regex', help='ignore regex domains', action='store_true')
 	args = vars(parser.parse_args())
 	
-	# Overwrite ipset name
-	if args['no_regex'] is True and args['ipset_name'] is not None:
-		print '[WARNING] ipset was disable due to no regex'
-		args['ipset_name']=None
-
-	generate_a_config(args['input'],args['output'],args['nameserver'],args['ipset_name'],args['no_regex'])
+	if args['ipset_only'] is True and args['nameserver_only'] is True:
+		print '[ERROR] conflict option --ipset-only and --nameserver-only'
+		sys.exit(-1)
+	
+	# default mode
+	only_mode = ONLY_MODE_BOTH
+	
+	if args['nameserver_only'] is True:
+		only_mode = ONLY_MODE_NAMESERVER
+	elif args['ipset_only'] is True:
+		only_mode = ONLY_MODE_IPSET
+	
+	generate_a_config(args['input'],args['output'],args['nameserver'],args['ipset_name'],args['no_regex'],only_mode)
 	
