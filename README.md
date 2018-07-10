@@ -40,13 +40,15 @@ The script output basic server configuration and ipset.
 ```
 cat /tmp/gfwlist.conf
 
-server=/facebook.com/8.8.8.8
+server=/facebook.com/8.8.8.8#53
 ipset=/facebook.com/gfwlist
-server=/google.com/8.8.8.8
+server=/google.com/8.8.8.8#53
 ipset=/google.com/gfwlist
 ```
 
 ## Advanced applications
+
+Here are some tricks we could play with dnsmasq-regex.
 
 ### Work with shadowsocks-libev
 
