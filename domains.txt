@@ -1,0 +1,234 @@
+# Overseas websites for dnsmasq-regex generator
+
+# Top-Level Domains
+:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr)$:
+
+# ubuntu: get correct ip when apt install
+ubuntu.com
+canonical.com
+
+# dropbox
+dropbox.com
+dropboxapi.com
+dropboxstatic.com
+dropboxusercontent.com
+
+# Github
+:.*github.*:
+rawgit.com
+
+# Facebook
+facebook.com
+fb.me
+fb.com
+fbcdn.net
+fbsbx.com
+
+# Google
+:.*google.*:
+:.*chrome.*:
+:.*\.gvt[0-9]*\.com:
+:.*\.blogspot\..*:
+ampproject.org
+gstatic.com
+gmail.com
+blogger.com
+feedburner.com
+goo.gl
+g.co
+recaptcha.net
+appspot.com
+
+# Youtube
+:.*youtube.*:
+youtu.be
+ytimg.com
+ggpht.com
+
+# Twitter
+twitter.com
+twttr.com
+twimg.com
+t.co
+
+# Wikipedia
+wikipedia.org
+wikimedia.org
+
+# Instagram
+instagram.com
+cdninstagram.com
+
+# Tumblr
+tumblr.com
+
+# Telegram
+telegram.org
+telegram.me
+t.me
+
+# Yahoo
+:.*yahoo.*:
+yimg.com
+flickr.com
+
+# WhatsApp
+whatsapp.com
+whatsapp.net
+
+# Line
+line.me
+line-apps.com
+line-scdn.net
+naver.jp
+
+# Microsoft
+:.*microsoft.*:
+:.*\.(live|bing)\.(net|com)$:
+skypeassets.com
+skype.com
+office.com
+office365.com
+onedrive.com
+livefilestore.com
+1drv.com
+msn.com
+trouter.io
+visualstudio.com
+
+# Reddit
+reddit.com
+redditstatic.com
+
+# IFFFT
+ift.tt
+
+# Mega
+mega.nz
+mega.co.nz
+
+# Anti-party websites
+:.*ntdtv.*:
+:.*reuters.*:
+:.*bbc.*:
+ntd.tv
+rfa.org
+epochtimes.com
+theepochtimes.com
+theinitium.com
+hk01.com
+appledaily.com
+nytimes.com
+nyt.com
+wsj.com
+wsj.net
+voachinese.com
+greatfire.org
+chinadigitaltimes.net
+
+# overseas CDN
+# Akamai
+:.*\.akama.*:
+akadns.net
+akam.net
+edgekey.net
+edgesuite.net
+srip.net
+# Fastly
+:.*fastly.*:
+# Amazon
+amazonaws.com
+# CloudFlare
+cloudfront.net
+cloudflare.com
+# Edgecast
+edgecastcdn.net
+# Verizon CDN
+:.*\.v[0-9]*cdn.*:
+# Speedyrails
+speedyrails.net
+# LeaseWeb
+lswcdn.net
+
+# StackExchange/StackOverflow
+stackoverflow.com
+stackexchange.com
+
+# Porns
+:.*(jav|porn|sex|fuck|xxx).*:
+phncdn.com
+xvideos.com
+t66y.com
+youjizz.com
+avgle.com
+bongacams.com
+
+# Spotify
+spotify.com
+
+# Sourceforge
+sourceforge.net
+
+# WordPress
+wp.com
+wordpress.com
+
+# Resilio Sync
+getsync.com
+resilio.com
+
+# FC2
+fc2.com
+fc2id.com
+
+# Apple
+apple.com
+cdn-apple.com
+apple-mapkit.com
+
+# Others
+:.*ddns\.[a-z]{2,4}$:
+thepiratebay.org
+tinypic.com
+imgur.com
+gravatar.com
+bitbucket.com
+disqus.com
+bitly.com
+trello.com
+trellocdn.com
+duckduckgo.com
+medium.com
+archive.org
+shutterstock.com
+ask.com
+pinimg.com
+soundcloud.com
+pinterest.com
+vk.com
+ptt.cc
+mobile01.com
+vimeo.com
+vimeocdn.com
+bloomberg.com
+pixiv.net
+dailymotion.com
+steamcommunity.com
+w3schools.com
+lvv2.com
+bstatic.com
+line.me
+protonmail.com
+slack.com
+boxun.com
+amnesty.org
+ftchinese.com
+apkpure.com
+bit.ly
+now.com
+slideshare.net
+torproject.org
+udn.com
+box.com
+xda-cdn.com
+viber.com
