@@ -189,6 +189,7 @@ apple-mapkit.com
 
 # Others
 :.*ddns\.[a-z]{2,4}$:
+:.*discord.*:
 thepiratebay.org
 tinypic.com
 imgur.com
