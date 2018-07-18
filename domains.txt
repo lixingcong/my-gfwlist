@@ -234,3 +234,5 @@ udn.com
 box.com
 xda-cdn.com
 viber.com
+apk-dl.com
+apk-cloud.com
