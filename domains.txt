@@ -52,6 +52,10 @@ twttr.com
 twimg.com
 t.co
 
+# Vimeo
+vimeo.com
+vimeocdn.com
+
 # Wikipedia
 wikipedia.org
 wikimedia.org
@@ -86,10 +90,8 @@ naver.jp
 # Microsoft
 :.*microsoft.*:
 :.*\.(live|bing)\.(net|com)$:
-skypeassets.com
-skype.com
-office.com
-office365.com
+:.*skype.*$:
+:.*office.*$:
 onedrive.com
 livefilestore.com
 1drv.com
@@ -100,6 +102,7 @@ visualstudio.com
 # Reddit
 reddit.com
 redditstatic.com
+redditmedia.com
 
 # IFFFT
 ift.tt
@@ -187,6 +190,10 @@ apple.com
 cdn-apple.com
 apple-mapkit.com
 
+# Trello
+trello.com
+trellocdn.com
+
 # Others
 :.*ddns\.[a-z]{2,4}$:
 :.*discord.*:
@@ -196,9 +203,8 @@ imgur.com
 gravatar.com
 bitbucket.com
 disqus.com
+bit.ly
 bitly.com
-trello.com
-trellocdn.com
 duckduckgo.com
 medium.com
 archive.org
@@ -210,8 +216,6 @@ pinterest.com
 vk.com
 ptt.cc
 mobile01.com
-vimeo.com
-vimeocdn.com
 bloomberg.com
 pixiv.net
 dailymotion.com
@@ -219,7 +223,6 @@ steamcommunity.com
 w3schools.com
 lvv2.com
 bstatic.com
-line.me
 protonmail.com
 slack.com
 boxun.com
