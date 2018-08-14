@@ -1,7 +1,7 @@
 # Overseas websites for dnsmasq-regex generator
 
 # Top-Level Domains
-:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr)$:
+:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au)$:
 
 # ubuntu: get correct ip when apt install
 ubuntu.com
@@ -92,6 +92,7 @@ naver.jp
 :.*\.(live|bing)\.(net|com)$:
 :.*skype.*$:
 :.*office.*$:
+:.*xbox.*$:
 onedrive.com
 livefilestore.com
 1drv.com
@@ -236,6 +237,9 @@ torproject.org
 udn.com
 box.com
 xda-cdn.com
+xda-developers.com
 viber.com
 apk-dl.com
 apk-cloud.com
+audioboom.com
+
