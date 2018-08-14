@@ -242,4 +242,5 @@ viber.com
 apk-dl.com
 apk-cloud.com
 audioboom.com
+npr.org
 
