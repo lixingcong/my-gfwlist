@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # lixingcong@live.com
-# Generate domains for dnsmasq-regex
+# Generate blocked domains for dnsmasq-regex
 # support for server or ipset block
 
 import argparse

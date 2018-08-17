@@ -20,7 +20,7 @@ If you do not have dnsmasq-regex, it is ok. You need you write your custom domai
 ## Usage
 
 ```
-$ python main.py -h
+$ python gen_domains_blocked.py -h
 usage: tool [-h] -i INPUT -o OUTPUT [-n NAMESERVER] [-s IPSET_NAME] [-N] [-S] [-R]
 
 A simple config file generator for dnsmasq-regex
@@ -39,13 +39,13 @@ optional arguments:
 Example
 
 ```
-python main.py -i domains.txt -o /tmp/gfwlist.conf -n 8.8.8.8#53 -s gfwlist
+python gen_domains_blocked.py -i domains_blocked.txt -o /tmp/domains_blocked.conf -n 8.8.8.8#53 -s gfwlist
 ```
 
 The script output basic server configuration and ipset.
 
 ```
-cat /tmp/gfwlist.conf
+cat /tmp/domains_blocked.conf
 
 server=/facebook.com/8.8.8.8#53
 ipset=/facebook.com/gfwlist
@@ -72,7 +72,7 @@ Use the scirpt 'main.py' above to generate full nameserver and ipset config file
 Run dnsmasq as your system resolver. Run ss-redir listening on port 1234.
 
 ```
-dnsmasq --conf-dir=/tmp/gfwlist.conf
+dnsmasq --conf-dir=/tmp/domains_blocked.conf
 ss-redir -c /path/to/config.json -l 1234 -f /tmp/ss.pid
 ```
 
