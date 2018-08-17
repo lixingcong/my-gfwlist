@@ -6,6 +6,7 @@
 :.*googleadservices\.com:
 :.*googleadsserving\.cn:
 :.*(mobileads|adservice)\.google.*:
+:.*s[0-9]{1,2}\.2mdn\.net:
 
 # Chinese
 :.*(cnzz|51yes|oadz|igexin|adpush|adsame|adsage|adsmogo|allyes|analysys|miaozhen|winads)\.(com|cn):
