@@ -1,3 +1,18 @@
-google-analytics.com
-googlesyndication.com
-doubleclick.net
+# Google Ads
+:.*google-analytics\.com:
+:.*googlesyndication\.com:
+:.*googletagservices\.com:
+:.*googletagmanager\.com:
+:.*googleadservices\.com:
+:.*googleadsserving\.cn:
+:.*(mobileads|adservice)\.google.*:
+
+# Chinese
+:.*(cnzz|51yes|oadz|igexin|adpush|adsame|adsage|adsmogo|allyes|analysys|miaozhen|winads)\.(com|cn):
+:.*umeng.*:
+
+# Foreign websites
+:.*(amazon-adsystem|inmobi|smaato|jumptap)\.(com|net):
+:.*(coin-hive|coinhive|authedmine)\.com:
+:.*admob\.com:
+:.*doubleclick\..*:

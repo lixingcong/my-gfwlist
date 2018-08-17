@@ -26,7 +26,7 @@ fbcdn.net
 fbsbx.com
 
 # Google
-:.*google.*:
+:^(?!.*(syndication|ads|-analytics|tag)).*google.*:
 :.*chrome.*:
 :.*\.gvt[0-9]*\.com:
 :.*\.blogspot\..*:
