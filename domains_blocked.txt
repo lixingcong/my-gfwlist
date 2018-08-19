@@ -24,6 +24,7 @@ fb.me
 fb.com
 fbcdn.net
 fbsbx.com
+accountkit.com
 
 # Google
 :^(?!.*(syndication|ads|-analytics|tag)).*google.*:
@@ -244,4 +245,6 @@ apk-cloud.com
 audioboom.com
 npr.org
 hkgolden.com
+lithium.com
+letscorp.net
 
