@@ -72,7 +72,7 @@ Use the scirpt 'main.py' above to generate full nameserver and ipset config file
 Run dnsmasq as your system resolver. Run ss-redir listening on port 1234.
 
 ```
-dnsmasq --conf-dir=/tmp/domains_blocked.conf
+dnsmasq --conf-file=/tmp/domains_blocked.conf
 ss-redir -c /path/to/config.json -l 1234 -f /tmp/ss.pid
 ```
 
