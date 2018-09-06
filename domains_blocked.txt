@@ -20,6 +20,7 @@ rawgit.com
 
 # Facebook
 facebook.com
+facebook.net
 fb.me
 fb.com
 fbcdn.net
@@ -248,3 +249,4 @@ hkgolden.com
 lithium.com
 letscorp.net
 aboluowang.com
+quora.com
