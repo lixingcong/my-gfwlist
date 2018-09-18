@@ -145,6 +145,7 @@ srip.net
 :.*fastly.*:
 # Amazon
 amazonaws.com
+amazon.com
 # CloudFlare
 cloudfront.net
 cloudflare.com
@@ -197,9 +198,20 @@ apple-mapkit.com
 trello.com
 trellocdn.com
 
+# Twitch
+twitch.tv
+twitchsvc.net
+twitchcdn.net
+ttvnw.net
+jtvnw.net
+
+# Discord
+discordapp.com
+discordapp.net
+discord.gg
+
 # Others
 :.*ddns\.[a-z]{2,4}$:
-:.*discord.*:
 thepiratebay.org
 tinypic.com
 imgur.com
@@ -250,3 +262,4 @@ lithium.com
 letscorp.net
 aboluowang.com
 quora.com
+
