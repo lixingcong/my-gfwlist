@@ -15,7 +15,7 @@ Compile time options: IPv6 GNU-getopt no-DBus no-i18n regex no-IDN DHCP DHCPv6 n
 
 ```
 
-If you do not have dnsmasq-regex, it is ok. You need you write your custom domain list(the list may be a bit longer than regex verison) and pass argument '--no-regex' to main.py for ignoring those regex domains.
+If you do not have dnsmasq-regex, it is ok. You need you write your custom domain list(the list may be a bit longer than regex verison) and pass argument '--no-regex' to script for ignoring those regex domains.
 
 ## Usage
 
@@ -67,7 +67,7 @@ To get ipset config works, you need to create a set named 'gfwlist' first.
 ipset create gfwlist hash:ip
 ```
 
-Use the scirpt 'main.py' above to generate full nameserver and ipset config file.
+Use the scirpt to generate full nameserver and ipset config file.
 
 Run dnsmasq as your system resolver. Run ss-redir listening on port 1234.
 
