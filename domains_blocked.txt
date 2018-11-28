@@ -231,6 +231,7 @@ soundcloud.com
 pinterest.com
 vk.com
 ptt.cc
+pttread.com
 mobile01.com
 bloomberg.com
 pixiv.net
