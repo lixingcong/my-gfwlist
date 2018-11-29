@@ -130,6 +130,7 @@ nyt.com
 wsj.com
 wsj.net
 voachinese.com
+voanews.com
 greatfire.org
 chinadigitaltimes.net
 
@@ -141,21 +142,14 @@ akam.net
 edgekey.net
 edgesuite.net
 srip.net
-# Fastly
-:.*fastly.*:
-# Amazon
+fastly.net
 amazonaws.com
 amazon.com
-# CloudFlare
 cloudfront.net
 cloudflare.com
-# Edgecast
 edgecastcdn.net
-# Verizon CDN
 :.*\.v[0-9]*cdn.*:
-# Speedyrails
 speedyrails.net
-# LeaseWeb
 lswcdn.net
 
 # StackExchange/StackOverflow
@@ -260,6 +254,7 @@ apk-cloud.com
 audioboom.com
 npr.org
 hkgolden.com
+lihkg.com
 lithium.com
 letscorp.net
 aboluowang.com
