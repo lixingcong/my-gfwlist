@@ -239,6 +239,7 @@ slack.com
 boxun.com
 amnesty.org
 ftchinese.com
+apkmirror.com
 apkpure.com
 bit.ly
 now.com
@@ -261,3 +262,5 @@ aboluowang.com
 quora.com
 quoracdn.net
 bandwagonhost.com
+:mitbbs\w{0,3}\.\w{2,3}:
+unknownspace.org
