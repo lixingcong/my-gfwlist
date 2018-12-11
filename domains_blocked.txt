@@ -134,6 +134,7 @@ voanews.com
 greatfire.org
 chinadigitaltimes.net
 bannedbook.org
+dwnews.com
 
 # overseas CDN
 # Akamai
