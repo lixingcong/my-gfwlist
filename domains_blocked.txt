@@ -133,6 +133,7 @@ voachinese.com
 voanews.com
 greatfire.org
 chinadigitaltimes.net
+bannedbook.org
 
 # overseas CDN
 # Akamai
