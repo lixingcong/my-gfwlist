@@ -266,3 +266,4 @@ quoracdn.net
 bandwagonhost.com
 :mitbbs\w{0,3}\.\w{2,3}:
 unknownspace.org
+getlantern.org
