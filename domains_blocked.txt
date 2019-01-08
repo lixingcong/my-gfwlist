@@ -209,7 +209,7 @@ discord.gg
 # Others
 :.*ddns\.[a-z]{2,4}$:
 :.*\.dysfz\..*:
-thepiratebay.org
+:.*piratebay.*:
 tinypic.com
 imgur.com
 gravatar.com
