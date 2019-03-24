@@ -273,3 +273,5 @@ telegra.ph
 graph.org
 daum.net
 daumcdn.net
+dlvr.it
+
