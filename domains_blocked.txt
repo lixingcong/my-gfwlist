@@ -37,7 +37,6 @@ gstatic.com
 gmail.com
 blogger.com
 feedburner.com
-goo.gl
 g.co
 recaptcha.net
 appspot.com
