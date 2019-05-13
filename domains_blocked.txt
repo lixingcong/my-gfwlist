@@ -135,6 +135,7 @@ greatfire.org
 chinadigitaltimes.net
 bannedbook.org
 dwnews.com
+dw.com
 
 # overseas CDN
 # Akamai
@@ -153,6 +154,7 @@ edgecastcdn.net
 :.*\.v[0-9]*cdn.*:
 speedyrails.net
 lswcdn.net
+tiqcdn.com
 
 # StackExchange/StackOverflow
 stackoverflow.com
