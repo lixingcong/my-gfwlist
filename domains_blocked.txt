@@ -3,10 +3,6 @@
 # Top-Level Domains
 :.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au)$:
 
-# ubuntu: get correct ip when apt install
-ubuntu.com
-canonical.com
-
 # dropbox
 dropbox.com
 dropboxapi.com
@@ -114,7 +110,7 @@ ift.tt
 mega.nz
 mega.co.nz
 
-# Anti-party websites
+# news websites
 :.*ntdtv.*:
 :.*reuters.*:
 :.*bbc.*:
@@ -136,6 +132,15 @@ chinadigitaltimes.net
 bannedbook.org
 dwnews.com
 dw.com
+mpfinance.com
+mingpao.com
+hket.com
+stheadline.com
+scmp.com
+udn.com
+ftchinese.com
+worldjournal.com
+creaders.net
 
 # overseas CDN
 # Akamai
@@ -242,14 +247,12 @@ protonmail.com
 slack.com
 boxun.com
 amnesty.org
-ftchinese.com
 apkmirror.com
 apkpure.com
 bit.ly
 now.com
 slideshare.net
 torproject.org
-udn.com
 box.com
 xda-cdn.com
 xda-developers.com
