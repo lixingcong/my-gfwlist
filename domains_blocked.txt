@@ -143,6 +143,7 @@ udn.com
 ftchinese.com
 worldjournal.com
 creaders.net
+thestandnews.com
 
 # overseas CDN
 # Akamai
