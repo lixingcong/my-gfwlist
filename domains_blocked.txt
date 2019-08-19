@@ -145,6 +145,8 @@ worldjournal.com
 creaders.net
 thestandnews.com
 thenewslens.com
+ettoday.net
+nownews.com
 
 # overseas CDN
 # Akamai
@@ -288,4 +290,5 @@ mojim.com
 goodreads.com
 arkoselabs.com
 protonmail.com
+yitianshijie.net
 
