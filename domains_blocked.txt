@@ -150,6 +150,9 @@ ettoday.net
 nownews.com
 cmcn.org
 twreporter.org
+now.com
+boxun.com
+bloomberg.com
 
 # overseas CDN
 # Akamai
@@ -245,7 +248,6 @@ vk.com
 ptt.cc
 pttread.com
 mobile01.com
-bloomberg.com
 pixiv.net
 dailymotion.com
 steamcommunity.com
@@ -254,12 +256,10 @@ lvv2.com
 bstatic.com
 protonmail.com
 slack.com
-boxun.com
 amnesty.org
 apkmirror.com
 apkpure.com
 bit.ly
-now.com
 slideshare.net
 torproject.org
 box.com
