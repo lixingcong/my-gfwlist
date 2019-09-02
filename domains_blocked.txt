@@ -48,6 +48,7 @@ twitter.com
 twttr.com
 twimg.com
 t.co
+cms-twdigitalassets.com
 
 # Vimeo
 vimeo.com
@@ -147,6 +148,8 @@ thestandnews.com
 thenewslens.com
 ettoday.net
 nownews.com
+cmcn.org
+twreporter.org
 
 # overseas CDN
 # Akamai
@@ -291,4 +294,5 @@ goodreads.com
 arkoselabs.com
 protonmail.com
 yitianshijie.net
+wikia.org
 
