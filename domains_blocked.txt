@@ -153,6 +153,7 @@ twreporter.org
 now.com
 boxun.com
 bloomberg.com
+inmediahk.net
 
 # overseas CDN
 # Akamai
@@ -295,4 +296,5 @@ arkoselabs.com
 protonmail.com
 yitianshijie.net
 wikia.org
+pixnet.net
 
