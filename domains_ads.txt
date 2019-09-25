@@ -7,6 +7,7 @@
 :.*googleadsserving\.cn:
 :.*(mobileads|adservice)\.google.*:
 :.*s[0-9]{1,2}\.2mdn\.net:
+crashlytics.com
 
 # Chinese
 :.*\.(cnzz|51yes|oadz|igexin|adpush|adsame|adsage|adsmogo|allyes|analysys|miaozhen|winads|domob|inmobi|adxmi|youmi|anquan|waps|aduu)\.(com|cn|org|net):
