@@ -22,6 +22,7 @@ fb.com
 fbcdn.net
 fbsbx.com
 accountkit.com
+messenger.com
 
 # Google
 :^(?!.*(syndication|ads|-analytics|tag)).*google.*:
@@ -36,7 +37,7 @@ feedburner.com
 g.co
 recaptcha.net
 appspot.com
-googleapis.com
+android.com
 
 # Youtube
 :.*youtube.*:
@@ -132,6 +133,9 @@ wsj.net
 voachinese.com
 voanews.com
 greatfire.org
+freewechat.com
+freeweibo.com
+pao-pao.net
 chinadigitaltimes.net
 bannedbook.org
 dwnews.com
@@ -155,6 +159,8 @@ now.com
 boxun.com
 bloomberg.com
 inmediahk.net
+matters.news
+economist.com
 
 # overseas CDN
 # Akamai
@@ -275,6 +281,7 @@ apk-cloud.com
 audioboom.com
 npr.org
 hkgolden.com
+hkgalden.com
 lihkg.com
 lithium.com
 letscorp.net
@@ -300,4 +307,8 @@ protonmail.com
 yitianshijie.net
 wikia.org
 pixnet.net
-
+deviantart.com
+deviantart.net
+issuu.com
+pscp.tv
+pincong.rocks
