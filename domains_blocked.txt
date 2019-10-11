@@ -161,6 +161,7 @@ bloomberg.com
 inmediahk.net
 matters.news
 economist.com
+storm.mg
 
 # overseas CDN
 # Akamai
@@ -312,3 +313,8 @@ deviantart.net
 issuu.com
 pscp.tv
 pincong.rocks
+
+# NBA
+#nba4free.com
+#nba4live.com
+
