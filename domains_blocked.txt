@@ -270,7 +270,6 @@ slack.com
 amnesty.org
 apkmirror.com
 apkpure.com
-bit.ly
 slideshare.net
 torproject.org
 box.com
