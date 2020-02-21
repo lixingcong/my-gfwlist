@@ -6,16 +6,16 @@ I hate DNS spoofing. Here is a simple script to ouput the configuration for some
 
 Use a patched version [dnsmasq-regex](https://github.com/lixingcong/dnsmasq-regex) to get regex support.
 
-Make sure compile dnsmasq with these flags: ```regex```and```ipset```
+Make sure compile dnsmasq with these flags: ```regex(+ipset)```
 
 ```
 $ dnsmasq -v
-Dnsmasq version 2.80test2  Copyright (c) 2000-2018 Simon Kelley
-Compile time options: IPv6 GNU-getopt no-DBus no-i18n regex no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
+Dnsmasq version 2.80  Copyright (c) 2000-2018 Simon Kelley
+Compile time options: IPv6 GNU-getopt no-DBus no-i18n regex(+ipset) no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack ipset auth no-DNSSEC loop-detect inotify
 
 ```
 
-If you do not have dnsmasq-regex, it is ok. You need you write your custom domain list(the list may be a bit longer than regex verison) and pass argument '--no-regex' to script for ignoring those regex domains.
+If you do not have dnsmasq-regex, it is ok. You need to write your custom domain list(the list may be a bit longer than the regex verison) and pass argument '--no-regex' to script for ignoring those regex domains.
 
 ## Usage
 
