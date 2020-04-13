@@ -71,6 +71,7 @@ tumblr.com
 telegram.org
 telegram.me
 t.me
+tdesktop.com
 
 # Yahoo
 :.*yahoo.*:
@@ -312,6 +313,7 @@ deviantart.net
 issuu.com
 pscp.tv
 pincong.rocks
+letsencrypt.org
 
 # NBA
 #nba4free.com

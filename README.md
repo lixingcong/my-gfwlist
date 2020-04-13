@@ -1,12 +1,12 @@
 # Generate my gfwlist for dnsmasq
 
-I hate DNS spoofing. Here is a simple script to ouput the configuration for some domains which were poisoned.
+I hate DNS spoofing. Here is a simple script to ouput the configuration for some domains which were polluted.
 
 ## Prerequisites
 
 Use a patched version [dnsmasq-regex](https://github.com/lixingcong/dnsmasq-regex) to get regex support.
 
-Make sure compile dnsmasq with these flags: ```regex(+ipset)```
+Make sure you had compiled dnsmasq with these flags: ```regex(+ipset)```
 
 ```
 $ dnsmasq -v
@@ -61,7 +61,7 @@ Here are some tricks we could play with dnsmasq-regex.
 
 It is a good practice to use ss-redir to bypass the Great Firewall.
 
-To get ipset config works, you need to create a set named 'gfwlist' first.
+To get ipset config works, you need to create a set named 'gfwlist' first. You must run with sudo :)
 
 ```
 ipset create gfwlist hash:ip
@@ -69,7 +69,7 @@ ipset create gfwlist hash:ip
 
 Use the scirpt to generate full nameserver and ipset config file.
 
-Run dnsmasq as your system resolver. Run ss-redir listening on port 1234.
+Run dnsmasq as your system resolver. Run ss-redir listening on port 1234. You must run dnsmasq with root to modify ipset.
 
 ```
 dnsmasq --conf-file=/tmp/domains_blocked.conf
