@@ -127,6 +127,7 @@ theinitium.com
 hk01.com
 appledaily.com
 nextmedia.com
+nypost.com
 nytimes.com
 nyt.com
 wsj.com
@@ -180,10 +181,9 @@ cloudflare.com
 cloudflareclient.com
 edgecastcdn.net
 edgecastdns.net
-:.*\.v[0-9]*cdn.*:
+:.*\.v[0-9]*cdn\.*:
 speedyrails.net
 lswcdn.net
-tiqcdn.com
 
 # StackExchange/StackOverflow
 stackoverflow.com
