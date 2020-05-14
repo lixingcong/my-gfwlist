@@ -315,6 +315,8 @@ issuu.com
 pscp.tv
 pincong.rocks
 letsencrypt.org
+v2ray.com
+techspot.com
 
 # NBA
 #nba4free.com
