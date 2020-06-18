@@ -83,10 +83,10 @@ whatsapp.com
 whatsapp.net
 
 # Line
-line.me
-line-apps.com
-line-scdn.net
-naver.jp
+#line.me
+#line-apps.com
+#line-scdn.net
+#naver.jp
 
 # Microsoft
 :.*microsoft.*:
@@ -200,6 +200,7 @@ bongacams.com
 
 # Spotify
 spotify.com
+scdn.co
 
 # Sourceforge
 sourceforge.net
@@ -217,9 +218,9 @@ fc2.com
 fc2id.com
 
 # Apple
-apple.com
-cdn-apple.com
-apple-mapkit.com
+#apple.com
+#cdn-apple.com
+#apple-mapkit.com
 
 # Trello
 trello.com
@@ -233,9 +234,9 @@ ttvnw.net
 jtvnw.net
 
 # Discord
-discordapp.com
-discordapp.net
-discord.gg
+#discordapp.com
+#discordapp.net
+#discord.gg
 
 # Others
 :.*ddns\.[a-z]{2,4}$:
@@ -290,7 +291,7 @@ letscorp.net
 aboluowang.com
 quora.com
 quoracdn.net
-bandwagonhost.com
+#bandwagonhost.com
 :mitbbs\w{0,3}\.\w{2,3}:
 unknownspace.org
 my-free-mp3s.com
