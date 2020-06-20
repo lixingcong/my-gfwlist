@@ -20,7 +20,7 @@ If you do not have dnsmasq-regex, it is ok. You need to write your custom domain
 ## Usage
 
 ```
-$ python gen_domains_blocked.py -h
+$ python3 gen_domains_blocked.py --help
 usage: tool [-h] -i INPUT -o OUTPUT [-n NAMESERVER] [-s IPSET_NAME] [-N] [-S] [-R]
 
 A simple config file generator for dnsmasq-regex
@@ -31,15 +31,15 @@ optional arguments:
   -o OUTPUT, --output OUTPUT              filename output
   -n NAMESERVER, --nameserver NAMESERVER  nameserver to resolve, default: 8.8.8.8
   -s IPSET_NAME, --ipset-name IPSET_NAME  ipset name to add
-  -N, --nameserver-only                   generate nameserver only
-  -S, --ipset-only                        generate ipset only
+  -N, --nameserver-only                   generate nameserver only(server=XXX)
+  -S, --ipset-only                        generate ipset only(ipset=XXX)
   -R, --no-regex                          ignore regex domains
 ```
 
 Example
 
 ```
-python gen_domains_blocked.py -i domains_blocked.txt -o /tmp/domains_blocked.conf -n 8.8.8.8#53 -s gfwlist
+python3 gen_domains_blocked.py -i domains_blocked.txt -o /tmp/domains_blocked.conf -n 8.8.8.8#53 -s gfwlist
 ```
 
 The script output basic server configuration and ipset.

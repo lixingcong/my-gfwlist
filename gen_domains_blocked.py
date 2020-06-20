@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # lixingcong@live.com
@@ -28,7 +28,7 @@ def generate_a_config(filename_in, filename_out, nameserver, ipset_name, is_noRe
 				continue
 			
 			if is_noRegex is True and line_trimed[0] == ':' and line_trimed[-1] == ':':
-				print '[INFO] ignore regex domain: '+ line_trimed
+				print('[INFO] ignore regex domain: '+ line_trimed)
 				continue
 			
 			domain_list.append(line_trimed)
@@ -61,14 +61,14 @@ if __name__ == "__main__":
 	parser.add_argument('-n','--nameserver', help='nameserver to resolve, default: '+DEFAULT_NAMESERVER, default=DEFAULT_NAMESERVER, required=False)
 	parser.add_argument('-s','--ipset-name', help='ipset name to add', default=None, required=False)
 	
-	parser.add_argument('-N','--nameserver-only', help='generate nameserver only', action='store_true')
-	parser.add_argument('-S','--ipset-only', help='generate ipset only', action='store_true')
+	parser.add_argument('-N','--nameserver-only', help='generate nameserver only(server=XXX)', action='store_true')
+	parser.add_argument('-S','--ipset-only', help='generate ipset only(ipset=XXX)', action='store_true')
 	
 	parser.add_argument('-R','--no-regex', help='ignore regex domains', action='store_true')
 	args = vars(parser.parse_args())
 	
 	if args['ipset_only'] is True and args['nameserver_only'] is True:
-		print '[ERROR] conflict option --ipset-only and --nameserver-only'
+		print('[ERROR] conflict option --ipset-only and --nameserver-only')
 		sys.exit(-1)
 	
 	# default mode
