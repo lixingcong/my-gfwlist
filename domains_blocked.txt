@@ -320,6 +320,8 @@ v2ray.com
 techspot.com
 #hcaptcha.com
 notion.so
+westca.com
+xuite.net
 
 # NBA
 #nba4free.com
