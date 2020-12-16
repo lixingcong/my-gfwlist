@@ -214,8 +214,8 @@ getsync.com
 resilio.com
 
 # FC2
-fc2.com
-fc2id.com
+#fc2.com
+#fc2id.com
 
 # Apple
 #apple.com
@@ -223,8 +223,8 @@ fc2id.com
 #apple-mapkit.com
 
 # Trello
-trello.com
-trellocdn.com
+#trello.com
+#trellocdn.com
 
 # Twitch
 twitch.tv
@@ -322,6 +322,8 @@ techspot.com
 notion.so
 westca.com
 xuite.net
+anchor.fm
+urbandictionary.com
 
 # NBA
 #nba4free.com
