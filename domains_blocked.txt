@@ -324,6 +324,7 @@ westca.com
 xuite.net
 anchor.fm
 urbandictionary.com
+v2ex.com
 
 # NBA
 #nba4free.com
