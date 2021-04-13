@@ -325,6 +325,7 @@ xuite.net
 anchor.fm
 urbandictionary.com
 v2ex.com
+chineseaci.com
 
 # NBA
 #nba4free.com
