@@ -134,6 +134,7 @@ nyt.com
 wsj.com
 wsj.net
 voachinese.com
+voacantonese.com
 voanews.com
 greatfire.org
 freewechat.com
@@ -165,6 +166,9 @@ inmediahk.net
 matters.news
 economist.com
 storm.mg
+thinkhk.com
+soundofhope.org
+singtaousa.com
 
 # overseas CDN
 # Akamai
@@ -185,6 +189,7 @@ edgecastdns.net
 :.*\.v[0-9]*cdn\.*:
 speedyrails.net
 lswcdn.net
+hinet.net
 
 # StackExchange/StackOverflow
 stackoverflow.com
@@ -262,6 +267,8 @@ pinterest.com
 vk.com
 ptt.cc
 pttread.com
+ptthito.com
+disp.cc
 mobile01.com
 pixiv.net
 dailymotion.com
@@ -330,6 +337,8 @@ chineseaci.com
 sqlitetutorial.net
 wenxuecity.com
 proton.me
+clipconverter.cc
+sm.ms
 
 # NBA
 #nba4free.com
