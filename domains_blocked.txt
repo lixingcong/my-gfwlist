@@ -169,6 +169,7 @@ storm.mg
 thinkhk.com
 soundofhope.org
 singtaousa.com
+good.news
 
 # overseas CDN
 # Akamai
@@ -303,7 +304,7 @@ quoracdn.net
 :mitbbs\w{0,3}\.\w{2,3}:
 unknownspace.org
 my-free-mp3s.com
-getlantern.org
+#getlantern.org
 telegra.ph
 graph.org
 daum.net
@@ -314,14 +315,11 @@ on.cc
 mojim.com
 goodreads.com
 arkoselabs.com
-protonmail.com
 yitianshijie.net
 wikia.org
 pixnet.net
 deviantart.com
 deviantart.net
-issuu.com
-pscp.tv
 pincong.rocks
 letsencrypt.org
 v2ray.com
@@ -336,13 +334,15 @@ v2ex.com
 chineseaci.com
 sqlitetutorial.net
 wenxuecity.com
+protonmail.com
 proton.me
 clipconverter.cc
 sm.ms
+hostloc.com
 
 # I love health code
-codeberg.org
-pages.dev
+#codeberg.org
+#pages.dev
 
 # NBA
 #nba4free.com
