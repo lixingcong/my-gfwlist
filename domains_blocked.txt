@@ -339,6 +339,7 @@ proton.me
 clipconverter.cc
 sm.ms
 hostloc.com
+#notepad-plus-plus.org
 
 # I love health code
 #codeberg.org
@@ -347,3 +348,10 @@ hostloc.com
 # NBA
 #nba4free.com
 #nba4live.com
+
+# WPS
+#kingsoftstore.com
+#wps.cn
+#wps.com
+#wpscdn.com
+
