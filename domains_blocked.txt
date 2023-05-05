@@ -38,6 +38,13 @@ g.co
 recaptcha.net
 appspot.com
 android.com
+xn--9kr7l.com
+xn--9trs65b.com
+xn--flw351e.com
+xn--ggle-55da.com
+xn--gogl-0nd52e.com
+xn--gogl-1nd42e.com
+xn--ngstr-lra8j.com
 
 # Youtube
 :.*youtube.*:
@@ -170,6 +177,7 @@ thinkhk.com
 soundofhope.org
 singtaousa.com
 good.news
+setn.com
 
 # overseas CDN
 # Akamai
@@ -191,6 +199,7 @@ edgecastdns.net
 speedyrails.net
 lswcdn.net
 hinet.net
+bootstrapcdn.com
 
 # StackExchange/StackOverflow
 stackoverflow.com
@@ -340,10 +349,8 @@ clipconverter.cc
 sm.ms
 hostloc.com
 #notepad-plus-plus.org
-
-# I love health code
-#codeberg.org
-#pages.dev
+#startpage.com
+#tiktok.com
 
 # NBA
 #nba4free.com
