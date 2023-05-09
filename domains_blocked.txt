@@ -351,6 +351,7 @@ hostloc.com
 #notepad-plus-plus.org
 #startpage.com
 #tiktok.com
+send.firefox.com
 
 # NBA
 #nba4free.com
