@@ -19,3 +19,9 @@ stats.chinaz.com
 :.*(coin-hive|coinhive|authedmine)\.com:
 :.*admob\.com:
 :.*doubleclick\..*:
+
+# WPS annoying upgrade
+kingsoftstore.com
+wps.cn
+wps.com
+wpscdn.com

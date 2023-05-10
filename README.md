@@ -20,37 +20,31 @@ If you do not have dnsmasq-regex, it is ok. You need to write your custom domain
 ## Usage
 
 ```
-$ python3 gen_domains_blocked.py --help
-usage: tool [-h] -i INPUT -o OUTPUT [-n NAMESERVER] [-s IPSET_NAME] [-N] [-S] [-R]
+$ python3 generate_config.py --help
+usage: generate_config.py [-h] -f FILE -p PREFIX -s SUFFIX [-R]
 
-A simple config file generator for dnsmasq-regex
+A simple config file generator for dnsmasq
 
-optional arguments:
-  -h, --help                              show this help message and exit
-  -i INPUT, --input INPUT                 filename input
-  -o OUTPUT, --output OUTPUT              filename output
-  -n NAMESERVER, --nameserver NAMESERVER  nameserver to resolve, default: 8.8.8.8
-  -s IPSET_NAME, --ipset-name IPSET_NAME  ipset name to add
-  -N, --nameserver-only                   generate nameserver only(server=XXX)
-  -S, --ipset-only                        generate ipset only(ipset=XXX)
-  -R, --no-regex                          ignore regex domains
+options:
+  -h, --help                  show this help message and exit
+  -f FILE, --file FILE        file path to input
+  -p PREFIX, --prefix PREFIX  prefix to be inserted to each line
+  -s SUFFIX, --suffix SUFFIX  suffix to be appended to each line
+  -R, --no-regex              ignore regex domains
 ```
 
 Example
 
 ```
-python3 gen_domains_blocked.py -i domains_blocked.txt -o /tmp/domains_blocked.conf -n 8.8.8.8#53 -s gfwlist
+python3 generate_config.py -f domains/ad.txt --prefix server=/ --suffix /1.1.1.1
 ```
 
-The script output basic server configuration and ipset.
+The script will read 'domains/ad.txt' and print each line with prefix and suffix like this:
 
 ```
-cat /tmp/domains_blocked.conf
-
-server=/facebook.com/8.8.8.8#53
-ipset=/facebook.com/gfwlist
-server=/google.com/8.8.8.8#53
-ipset=/google.com/gfwlist
+server=/:.*google-analytics\.com:/1.1.1.1
+server=/:.*googlesyndication\.com:/1.1.1.1
+server=/:.*googletagservices\.com:/1.1.1.1
 ```
 
 ## Advanced applications
@@ -68,6 +62,13 @@ ipset create gfwlist hash:ip
 ```
 
 Use the scirpt to generate full nameserver and ipset config file.
+
+```
+python3 generate_config.py -f domains/gfw_blocked.txt --prefix server=/ --suffix /1.1.1.1
+python3 generate_config.py -f domains/gfw_blocked.txt --prefix ipset=/ --suffix /gfwlist
+```
+
+Save the script outputs to file ```/tmp/domains_blocked.conf```
 
 Run dnsmasq as your system resolver. Run ss-redir listening on port 1234. You must run dnsmasq with root to modify ipset.
 

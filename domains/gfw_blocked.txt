@@ -1,17 +1,39 @@
-# Overseas websites for dnsmasq-regex generator
+# Overseas websites which were blocked by GFW
 
 # Top-Level Domains
 :.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au)$:
 
 # dropbox
+# https://help.dropbox.com/zh-cn/security/official-domains
 dropbox.com
 dropboxapi.com
 dropboxstatic.com
 dropboxusercontent.com
+dropboxcaptcha.com
 dropbox-dns.com
+db.tt
 
 # Github
-:.*github.*:
+atom.io
+dependabot.com
+ghcr.io
+git.io
+github.blog
+github.com
+github.community
+github.dev
+github.io
+githubapp.com
+githubassets.com
+githubhackathon.com
+githubpreview.dev
+githubstatus.com
+githubuniverse.com
+githubusercontent.com
+#myoctocat.com
+#opensource.guide
+#repo.new
+#thegithubshop.com
 rawgit.com
 
 # Facebook
@@ -26,9 +48,20 @@ messenger.com
 
 # Google
 :^(?!.*(syndication|ads|-analytics|tag)).*google.*:
-:.*chrome.*:
-:.*\.gvt[0-9]*\.com:
 :.*\.blogspot\..*:
+chrome.com
+#chromebook.com
+#chromecast.com
+#chromeos.dev
+chromium.org
+gvt0.com
+gvt1.com
+gvt2.com
+gvt3.com
+gvt5.com
+gvt6.com
+gvt7.com
+gvt9.com
 ampproject.org
 gstatic.com
 gmail.com
@@ -49,6 +82,7 @@ xn--ngstr-lra8j.com
 # Youtube
 :.*youtube.*:
 youtu.be
+yt.be
 ytimg.com
 ggpht.com
 
@@ -79,6 +113,7 @@ telegram.org
 telegram.me
 t.me
 tdesktop.com
+telegra.ph
 
 # Yahoo
 :.*yahoo.*:
@@ -96,11 +131,24 @@ whatsapp.net
 #naver.jp
 
 # Microsoft
-:.*microsoft.*:
-:.*\.(live|bing)\.(net|com)$:
-:.*skype.*$:
-:.*office.*$:
-:.*xbox.*$:
+:.*\.microsoft.*:
+live.com
+live.net
+bing.com
+bing.net
+office.com
+office.net
+office365.com
+onenote.com
+skype.com
+skype.net
+skypeassets.com
+skypeassets.net
+hotmail.com
+hotmail.net
+sfx.ms
+outlook.com
+#:.*xbox.*$:
 onedrive.com
 livefilestore.com
 1drv.com
@@ -168,6 +216,7 @@ cmcn.org
 twreporter.org
 now.com
 boxun.com
+bowenpress.com
 bloomberg.com
 inmediahk.net
 matters.news
@@ -314,7 +363,6 @@ quoracdn.net
 unknownspace.org
 my-free-mp3s.com
 #getlantern.org
-telegra.ph
 graph.org
 daum.net
 daumcdn.net
@@ -352,6 +400,7 @@ hostloc.com
 #startpage.com
 #tiktok.com
 send.firefox.com
+#fast.com
 
 # NBA
 #nba4free.com
