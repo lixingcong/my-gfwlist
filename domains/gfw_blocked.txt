@@ -402,6 +402,11 @@ hostloc.com
 send.firefox.com
 #fast.com
 
+# docker
+#docker.io
+#docker.com
+#compose-spec.io
+
 # NBA
 #nba4free.com
 #nba4live.com
