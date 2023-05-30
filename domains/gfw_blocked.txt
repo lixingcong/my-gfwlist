@@ -227,6 +227,7 @@ soundofhope.org
 singtaousa.com
 good.news
 setn.com
+bad.news
 
 # overseas CDN
 # Akamai
@@ -403,6 +404,7 @@ send.firefox.com
 #fast.com
 buzzsprout.com
 bumingbai.net
+telegram-store.com
 
 # docker
 #docker.io
