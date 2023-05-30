@@ -1,7 +1,7 @@
 # Overseas websites which were blocked by GFW
 
 # Top-Level Domains
-:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au)$:
+:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au|fm)$:
 
 # dropbox
 # https://help.dropbox.com/zh-cn/security/official-domains
@@ -405,6 +405,7 @@ send.firefox.com
 buzzsprout.com
 bumingbai.net
 telegram-store.com
+podcastaddict.com
 
 # docker
 #docker.io
