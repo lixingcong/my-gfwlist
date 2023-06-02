@@ -250,6 +250,8 @@ speedyrails.net
 lswcdn.net
 hinet.net
 bootstrapcdn.com
+jsdelivr.net
+unpkg.com
 
 # StackExchange/StackOverflow
 stackoverflow.com
@@ -402,10 +404,15 @@ hostloc.com
 #tiktok.com
 send.firefox.com
 #fast.com
+telegram-store.com
+openstreetmap.org
+
+# podcast
 buzzsprout.com
 bumingbai.net
-telegram-store.com
 podcastaddict.com
+podcasts.apple.com
+podtail.com
 
 # docker
 #docker.io
