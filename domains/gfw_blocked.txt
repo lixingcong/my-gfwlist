@@ -406,6 +406,8 @@ send.firefox.com
 #fast.com
 telegram-store.com
 openstreetmap.org
+virtualearth.net
+lilaoshibushinilaoshi.com
 
 # podcast
 buzzsprout.com
