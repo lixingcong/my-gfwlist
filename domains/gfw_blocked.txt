@@ -156,6 +156,7 @@ msn.com
 trouter.io
 vsassets.io
 visualstudio.com
+sharepoint.com
 
 # Reddit
 reddit.com
@@ -408,6 +409,7 @@ telegram-store.com
 openstreetmap.org
 virtualearth.net
 lilaoshibushinilaoshi.com
+f-droid.org
 
 # podcast
 buzzsprout.com
@@ -417,9 +419,9 @@ podcasts.apple.com
 podtail.com
 
 # docker
-#docker.io
-#docker.com
-#compose-spec.io
+docker.io
+docker.com
+compose-spec.io
 
 # NBA
 #nba4free.com
