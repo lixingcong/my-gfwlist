@@ -1,7 +1,7 @@
 # Overseas websites which were blocked by GFW
 
 # Top-Level Domains
-:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au|fm)$:
+:.*\.(hk|tw|jp|ca|de|fr|uk|sg|us|kr|au|fm|tk|ru)$:
 
 # dropbox
 # https://help.dropbox.com/zh-cn/security/official-domains
@@ -92,6 +92,8 @@ twttr.com
 twimg.com
 t.co
 cms-twdigitalassets.com
+twitpic.com
+vine.co
 
 # Vimeo
 vimeo.com
@@ -111,9 +113,11 @@ tumblr.com
 # Telegram
 telegram.org
 telegram.me
+telegram.dog
 t.me
 tdesktop.com
 telegra.ph
+telesco.pe
 
 # Yahoo
 :.*yahoo.*:
@@ -173,9 +177,11 @@ mega.io
 mega.co.nz
 
 # news websites
-:.*ntdtv.*:
+:.*ntdtv\..*:
 :.*reuters.*:
-:.*bbc.*:
+bbc.co.uk
+bbc.com
+bbcchinese.com
 ntd.tv
 rfa.org
 epochtimes.com
@@ -187,11 +193,20 @@ nextmedia.com
 nypost.com
 nytimes.com
 nyt.com
+nytcn.me
+nytchina.com
+nytco.com
+nyti.ms
+nytimg.com
+nytstyle.com
 wsj.com
 wsj.net
 voachinese.com
 voacantonese.com
+#voatibetanenglish.com
+#voatibetan.com
 voanews.com
+voachineseblog.com
 greatfire.org
 freewechat.com
 freeweibo.com
@@ -244,6 +259,7 @@ amazon.com
 cloudfront.net
 cloudflare.com
 cloudflareclient.com
+pages.dev
 edgecastcdn.net
 edgecastdns.net
 :.*\.v[0-9]*cdn\.*:
@@ -303,6 +319,7 @@ ttvnw.net
 jtvnw.net
 
 # Discord
+#discord.com
 #discordapp.com
 #discordapp.net
 #discord.gg
@@ -335,7 +352,8 @@ disp.cc
 mobile01.com
 pixiv.net
 dailymotion.com
-steamcommunity.com
+#steamcommunity.com
+#steampowered.com
 w3schools.com
 lvv2.com
 bstatic.com
@@ -410,6 +428,7 @@ openstreetmap.org
 virtualearth.net
 lilaoshibushinilaoshi.com
 f-droid.org
+theguardian.com
 
 # podcast
 buzzsprout.com
@@ -422,14 +441,3 @@ podtail.com
 docker.io
 docker.com
 compose-spec.io
-
-# NBA
-#nba4free.com
-#nba4live.com
-
-# WPS
-#kingsoftstore.com
-#wps.cn
-#wps.com
-#wpscdn.com
-
