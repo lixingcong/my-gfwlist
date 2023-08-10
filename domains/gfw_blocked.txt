@@ -243,6 +243,7 @@ soundofhope.org
 singtaousa.com
 good.news
 setn.com
+caus.com
 bad.news
 
 # overseas CDN

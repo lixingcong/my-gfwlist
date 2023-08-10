@@ -1,0 +1,21 @@
+# https://github.com/LoopDns/Fuck-you-MIUI
+api.sec.miui.com
+flash.sec.miui.com
+tracking.miui.com
+update.avlyun.sec.miui.com
+logupdate.avlyun.sec.miui.com
+
+api.installer.xiaomi.com
+a0.app.xiaomi.com
+data.mistat.xiaomi.com
+diagnosis.ad.xiaomi.com
+log.ad.xiaomi.com
+m.track.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+
+# AVL
+miui-fxcse.avlyun.com
+sdkconf.avlyun.com
+sdkconf.avlyun.com
+miav-cse.avlyun.com
+ixav-cse.avlyun.com
