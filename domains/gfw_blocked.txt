@@ -245,6 +245,8 @@ good.news
 setn.com
 caus.com
 bad.news
+#nikkei.com
+newslab.info
 
 # overseas CDN
 # Akamai
@@ -431,6 +433,7 @@ virtualearth.net
 lilaoshibushinilaoshi.com
 f-droid.org
 theguardian.com
+pttgame.com
 
 # podcast
 buzzsprout.com
