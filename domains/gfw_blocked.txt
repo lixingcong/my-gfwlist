@@ -434,6 +434,8 @@ lilaoshibushinilaoshi.com
 f-droid.org
 theguardian.com
 pttgame.com
+#api.minecraftservices.com
+#api.mojang.com
 
 # podcast
 buzzsprout.com
