@@ -246,7 +246,6 @@ setn.com
 caus.com
 bad.news
 #nikkei.com
-newslab.info
 
 # overseas CDN
 # Akamai
