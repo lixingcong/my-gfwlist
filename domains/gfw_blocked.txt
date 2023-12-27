@@ -246,6 +246,8 @@ setn.com
 caus.com
 bad.news
 #nikkei.com
+newslab.info
+theguardian.com
 
 # overseas CDN
 # Akamai
@@ -284,6 +286,7 @@ t66y.com
 youjizz.com
 avgle.com
 bongacams.com
+hayav.com
 
 # Spotify
 spotify.com
@@ -350,6 +353,7 @@ vk.com
 ptt.cc
 pttread.com
 ptthito.com
+pttgame.com
 disp.cc
 mobile01.com
 pixiv.net
@@ -431,10 +435,11 @@ openstreetmap.org
 virtualearth.net
 lilaoshibushinilaoshi.com
 f-droid.org
-theguardian.com
-pttgame.com
 #api.minecraftservices.com
 #api.mojang.com
+#mypikpak.com
+#gamespot.com
+scratch.mit.edu
 
 # podcast
 buzzsprout.com
