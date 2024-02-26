@@ -273,6 +273,7 @@ hinet.net
 bootstrapcdn.com
 jsdelivr.net
 unpkg.com
+cachefly.net
 
 # StackExchange/StackOverflow
 stackoverflow.com
@@ -440,6 +441,7 @@ f-droid.org
 #mypikpak.com
 #gamespot.com
 scratch.mit.edu
+z-lib.io
 
 # podcast
 buzzsprout.com
@@ -452,3 +454,8 @@ podtail.com
 docker.io
 docker.com
 compose-spec.io
+
+# crypto
+binance.com
+bnbstatic.com
+coinmarketcap.com
