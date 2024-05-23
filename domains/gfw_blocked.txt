@@ -94,6 +94,7 @@ t.co
 cms-twdigitalassets.com
 twitpic.com
 vine.co
+x.com
 
 # Vimeo
 vimeo.com
@@ -442,6 +443,8 @@ f-droid.org
 #gamespot.com
 scratch.mit.edu
 z-lib.io
+uscardforum.com
+#hysteria.network
 
 # podcast
 buzzsprout.com
@@ -449,6 +452,8 @@ bumingbai.net
 podcastaddict.com
 podcasts.apple.com
 podtail.com
+rsshub.app
+since1989.org
 
 # docker
 docker.io
