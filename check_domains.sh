@@ -4,7 +4,7 @@ INVALID_DNS_SERVER=5.4.3.2
 DIG="dig @$INVALID_DNS_SERVER +timeout=1 +retries=0"
 
 if [ $# -ne 1 ]; then
-    echo "Usage: bash xxx.sh /path/to/domains.txt"
+    echo "Usage: bash $0 /path/to/domains.txt"
     exit 1
 fi
 
