@@ -103,6 +103,7 @@ vimeocdn.com
 # Wikipedia
 wikipedia.org
 wikimedia.org
+#wikiwand.com
 
 # Instagram
 instagram.com
@@ -446,6 +447,9 @@ z-lib.io
 uscardforum.com
 #hysteria.network
 launchpad.net
+substack.com
+brave.com
+hostevaluate.com
 
 # Matrix
 matrix.org
@@ -459,6 +463,9 @@ podcasts.apple.com
 podtail.com
 rsshub.app
 since1989.org
+listennotes.com
+chartable.com
+podcast.app
 
 # docker
 docker.io
