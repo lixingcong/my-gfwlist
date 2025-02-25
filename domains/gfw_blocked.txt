@@ -290,6 +290,7 @@ youjizz.com
 avgle.com
 bongacams.com
 hayav.com
+sehuatang.org
 
 # Spotify
 spotify.com
@@ -450,6 +451,9 @@ launchpad.net
 substack.com
 brave.com
 hostevaluate.com
+cmx.im
+privoxy.org
+greasyfork.org
 
 # Matrix
 matrix.org
