@@ -454,6 +454,7 @@ hostevaluate.com
 cmx.im
 privoxy.org
 greasyfork.org
+linux.do
 
 # Matrix
 matrix.org
@@ -470,6 +471,7 @@ since1989.org
 listennotes.com
 chartable.com
 podcast.app
+neodb.social
 
 # docker
 docker.io
