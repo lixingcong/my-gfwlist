@@ -455,6 +455,7 @@ cmx.im
 privoxy.org
 greasyfork.org
 linux.do
+:.*\.laborinfocn[0-9]{0,2}\.com:
 
 # Matrix
 matrix.org
